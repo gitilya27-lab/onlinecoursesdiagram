@@ -15,7 +15,7 @@ public class Main {
      * @param args аргументы командной строки
      */
     static void main(String[] args) {
-
+        System.out.println("Дата запуска программы: " + LocalDate.now());
         Student student = new Student(
                 "Anna",
                 "anna@example.com",
